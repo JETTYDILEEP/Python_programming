@@ -1,4 +1,4 @@
-c = int(raw_input("enter number"))
+c = int(raw_input(""))
 if(c>0):
 	print("Positive")
 elif(c<0):
