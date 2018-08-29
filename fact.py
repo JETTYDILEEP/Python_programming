@@ -1,4 +1,6 @@
 n = int(input(" "))
-for i in range(1,6):
-  r=n*i
-  print(" "r)
+for i in range(1,n):
+  n=n*i
+  
+print(n)
+
