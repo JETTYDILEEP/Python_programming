@@ -7,5 +7,5 @@ for i in range(1,n+1):
 a.sort()
 k = len(a)/2
 for j in range(1,n+1):
-     print(a[k])
+     print(a[k-1])
      break
