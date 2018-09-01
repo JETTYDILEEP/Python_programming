@@ -1,6 +1,7 @@
 num = input("")
 try:
-    val = int(num)
+    n = float(num)
+    val = int(n)
     if (val%1==0):
         print("Yes")
    
