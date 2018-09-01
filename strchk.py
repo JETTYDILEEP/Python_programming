@@ -1,4 +1,4 @@
-num = input("")
+num = input(" ")
 try:
     n = float(num)
     val = int(n)
