@@ -4,4 +4,5 @@ while(t>60):
   t=t-60
   c=c+1
 
-print(c , t)  
+
+  print(c , t)  
