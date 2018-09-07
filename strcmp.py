@@ -5,6 +5,6 @@ j=len(m)
 if(i>j):
   print(n)
 elif(i==j):
-  print(n) 
+  print(m) 
 else:
   print(m)   
