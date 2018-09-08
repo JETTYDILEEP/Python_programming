@@ -6,7 +6,7 @@ def check(z):
 
 def main():
   try:
-    m,n=int(input("")).split( )
+    m,n=int(raw_input("")).split( )
     check(m*n)
   except:
     print("invalid")  
