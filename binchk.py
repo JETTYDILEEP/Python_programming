@@ -1,7 +1,8 @@
 l=['0','1']
 f=0
 st=input()
-for i in range(len(st)):
+m=len(st)
+for i in range(m):
 	if st[i] in l:
 		continue
 	else :
