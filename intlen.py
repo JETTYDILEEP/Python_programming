@@ -1,2 +1,3 @@
 n=input("")
-print(len(n))
+m=len(n)
+print(m)
