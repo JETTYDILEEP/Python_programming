@@ -1,6 +1,6 @@
 n=int(input())
 for i in range(n):
-  p=2**i
-  if p>n:
-    print(p)
+  k=2**i
+  if (k>n):
+    print(k)
     break
