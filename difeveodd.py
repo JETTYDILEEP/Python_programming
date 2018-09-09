@@ -1,4 +1,4 @@
-m,n=input("").split()
+m,n=raw_input(""),raw_input("")
 m=int(m)
 n=int(n)
 k=m-n
