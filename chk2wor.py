@@ -1,6 +1,5 @@
 v=int(input(""))
-n=int(input(""))
-m=int(input(""))
+n,m=int(input("")) ,int(input(""))
 if((v>n) and (v<m)):
   print("yes")
 else:
