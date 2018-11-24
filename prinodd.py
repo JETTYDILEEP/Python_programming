@@ -1,8 +1,7 @@
 n=int(input())
 r=[]
-m=n%10
 while(n!=0):
-	r.append(m)
+	r.append(n%10)
 	n//=10
 for i in range(len(r)-1,-1,-1):
 	if r[i]%2!=0:
