@@ -1,5 +1,6 @@
-n = int(input(""))
-m = int(input(""))
-for x in range(n,m):
+n,m = map(int,input().split())
+for x in range(n+1,m):
   if(x%2!=0):
-    print(x)
+    print(x,end=' ')
+  else:
+    print(x,end="")  
