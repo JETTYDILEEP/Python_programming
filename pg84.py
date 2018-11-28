@@ -1,2 +1,3 @@
 s=input()
-print(ord(s))
+v=ord(s)
+print(v)
