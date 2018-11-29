@@ -1,9 +1,13 @@
-m,n=map(int,input().split())
-a=max(m,n)
+x,y=map(int,input().split())
+if x > y:
+  greater = x
+else:
+  greater = y
+
 while(True):
-  if a%m==0 and a%n==0:
+  if((greater % x == 0) and (greater % y == 0)):
+    lcm = greater
     break
-  a+=a  
+  greater += 1
 
-
-print(a)
+print(lcm)
