@@ -5,6 +5,6 @@ for i in l:
 	if not i in r:
 	  r.append(i)
 if len(l)==len(r):
-	print('yes')
+	print('Yes')
 else :
-	print('no')
+	print('No')
