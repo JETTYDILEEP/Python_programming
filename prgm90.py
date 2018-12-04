@@ -1,5 +1,5 @@
 n=input()
-i=list(s)
+i=list(n)
 a=''
 for v in i:
 	if v.isnumeric():
