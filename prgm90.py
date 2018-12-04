@@ -1,7 +1,7 @@
-s=input()
-l=list(s)
+n=input()
+i=list(s)
 a=''
-for i in l:
-	if i.isnumeric():
-		a+=i
+for v in i:
+	if v.isnumeric():
+		a+=v
 print(a)
