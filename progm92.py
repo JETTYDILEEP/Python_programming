@@ -1,7 +1,7 @@
 n=int(input())
-l=[]
+li=[]
 sum=0
 for i in range(n):
-	l.append(int(input()))
-	sum+=l[i]
+	li.append(int(input()))
+	sum+=li[i]
 print(sum)
